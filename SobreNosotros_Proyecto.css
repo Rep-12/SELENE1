@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1b26;
+    background-image: url('fondo_selen-1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 1050px;
+    margin: auto;
+}
+
+header {
+    width: 320px;
+    height: 520px;
+    padding: 40px 20px;
+    margin: 0;
+    background-color: #24283b;
+    border: 4px solid #bb9af7;
+    border-radius: 30px;
+    box-shadow: 12px 12px 0px #7aa2f7;
+    position: fixed;
+    top: 60px;
+    z-index: 100;
+    text-align: center;
+}
+
+#titulo-principal {
+    font-family: 'Bricolage Grotesque';
+    color: #7dcfff;
+    font-size: 50px;
+    text-shadow: 5px 5px 0px #1a1b26;
+    padding: 40px 0 20px 0;
+    display: inline-block;
+}
+
+#subtitulo {
+    font-family: Arial;
+    font-size: 22px;
+    color: #a9b1d6;
+    padding: 10px;
+    margin: 20px 0;
+    display: block;
+}
+
+#nav-lateral {
+    width: 280px;
+    padding: 10px 0 0 0;
+    margin: 10px auto 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#nav-lateral ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-lateral ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+}
+
+#nav-lateral ul li a {
+    font-family: 'Bricolage Grotesque';
+    font-size: 16px;
+    color: #7dcfff;
+    text-decoration: underline;
+    padding: 8px 14px;
+    margin: 0;
+    background-color: #1a1b26;
+    border: 2px solid #7aa2f7;
+    border-radius: 12px;
+    display: block;
+}
+
+#contenido-principal {
+    width: 680px;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    top: 60px;
+    left: 360px;
+    text-align: center;
+    border-radius: 0;
+}
+
+#seccion-titulo {
+    background-color: #24283b;
+    border: 3px solid #7aa2f7;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px #bb9af7;
+    padding: 20px 25px;
+    margin: 0 0 30px 0;
+}
+
+#seccion-titulo h2 {
+    font-family: 'Bricolage Grotesque';
+    font-size: 28px;
+    color: #7dcfff;
+    text-shadow: 3px 3px 0px #1a1b26;
+    padding: 0 0 10px 0;
+    margin: 0;
+    display: block;
+}
+
+#seccion-titulo p {
+    font-family: Arial;
+    font-size: 16px;
+    color: #a9b1d6;
+    padding: 0;
+    margin: 0;
+}
+
+#equipo-grid {
+    text-align: center;
+    font-size: 0;
+}
+
+.miembro {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 0 10px 30px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.miembro img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #bb9af7;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px #7aa2f7;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.info-miembro {
+    background-color: #24283b;
+    border: 3px solid #7aa2f7;
+    border-radius: 15px;
+    box-shadow: 6px 6px 0px #bb9af7;
+    padding: 15px;
+    margin: 0;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-miembro h3 {
+    font-family: 'Bricolage Grotesque';
+    font-size: 20px;
+    color: #7dcfff;
+    padding: 0 0 5px 0;
+    margin: 0;
+}
+
+.info-miembro .cargo {
+    font-family: 'Bricolage Grotesque';
+    font-size: 14px;
+    color: #bb9af7;
+    padding: 2px 0;
+    margin: 0;
+}
+
+.info-miembro .descripcion {
+    font-family: Arial;
+    font-size: 13px;
+    color: #a9b1d6;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    color: #1a1b26;
+    font-family: 'Bricolage Grotesque';
+    font-size: 16px;
+    padding: 12px 25px;
+    background-color: #7dcfff;
+    border-radius: 12px;
+    box-shadow: 4px 4px 0px #7aa2f7;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../00.normalize.css">
+    <link rel="stylesheet" href="Contacto_Proyecto.css">
+    <script src="../00.modernizr.js"></script>
+    <title>Contacto - Proyecto Selene-I</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="titulo-principal">PROYECTO SELENE-I</h1>
+        <p id="subtitulo">Estación de Investigación en el Ártico</p>
+        <nav id="nav-lateral">
+            <ul>
+                <li><a href="Index_Proyecto.html">Inicio</a></li>
+                <li><a href="Investigaciones_Proyecto.html">Info</a></li>
+                <li><a href="SobreNosotros_Proyecto.html">Equipo</a></li>
+                <li><a href="Galeria_Proyecto.html">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contenido-principal">
+
+        <div id="seccion-titulo">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o quieres reservar una estancia? Escríbenos.</p>
+        </div>
+
+        <div id="seccion-formulario">
+            <form action="#" method="post">
+
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="60" minlength="5"
+                        pattern="[A-Za-zÁÉÍÓÚáéíóúÑñÜü\s\-]+" placeholder="John Doe" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input type="text" id="email" name="email" maxlength="80" minlength="5" placeholder="email@mail.com"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="institucion">Institución / Universidad</label>
+                    <input type="text" id="institucion" name="institucion" maxlength="100" minlength="5"
+                        placeholder="Universidad Complutense de Madrid" required>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" maxlength="120" minlength="5" required
+                        placeholder="Compra">
+                </div>
+
+                <div class="campo">
+                    <label for="consulta">Mensaje</label>
+                    <input type="text" id="consulta" name="consulta" maxlength="500" minlength="5" placeholder="Mensaje"
+                        required>
+                </div>
+
+                <div id="botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Base Polaris | Latitud 90° S</p>
+    </footer>
+
+</body>
+
+</html>
